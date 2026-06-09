@@ -34,8 +34,8 @@ password: ${{ secrets.DOCKER_PASSWORD }}
 
 - name: Build Image
 run: |
-docker build -t Ghard061/aula-devops:1.0 .
+docker build -t ghard061/aula-devops:1.0 .
 
 - name: Push Image
 run: |
-docker push Ghard061/aula-devops:1.0 .
+docker push ghard061/aula-devops:1.0 .
